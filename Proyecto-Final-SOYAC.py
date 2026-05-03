@@ -83,8 +83,7 @@ class SistemaOperativo:
             print("2. Mostrar Procesos")
             print("3. Ejecutar FCFS")
             print("4. Ejecutar Round Robin")
-            print("5. Simular I/O")
-            print("6. Salir")
+            print("5. Salir")
             opcion = input("Seleccione una opción: ")
             if opcion == "1":
                 self.crear_proceso()
@@ -95,8 +94,6 @@ class SistemaOperativo:
             elif opcion == "4":
                 self.ejecutar_round_robin()
             elif opcion == "5":
-                self.simluar_io()
-            elif opcion == "6":
                 break
             else:
                 print("Opción no válida")
